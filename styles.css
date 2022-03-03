@@ -1,0 +1,31 @@
+/* when choosing specific ids to style, use "#" */
+/* when choosing a class to style, use "." */
+
+body {
+    font-family:sans-serif;
+    margin:0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+}
+
+#topbar {
+    color:rgb(0, 0, 0);
+    background-color:rgb(194, 194, 194);
+    text-align:center;
+    align-items:center;
+    position:absolute;
+    border-bottom:3px solid grey;
+    margin:0px;
+    width:100%;
+}
+
+#main {
+	position: relative;
+    top: 100px;
+    margin: 5px;
+    font-size:20px;
+    color:rgb(77, 110, 153);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
